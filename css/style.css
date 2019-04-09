@@ -1,0 +1,32 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+
+.nav-center ul {
+    text-align: center;
+    width: 100%;
+    min-width:1000px;
+    background-color: black;
+    color: white;
+    height: 68px;
+    list-style-type: none;
+}
+.nav-center ul li {
+    display: inline;
+    float: none;
+}
+.nav-center ul li a {
+    display: inline-block;
+}
